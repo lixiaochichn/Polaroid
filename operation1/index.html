@@ -35,7 +35,7 @@
 </lable><br>    
 
 邮箱：<input name="email" type="email" placeholder="你的邮箱"><br>
-文件：<input name="pic" type="file" placeholder="上传图片"><br>
+文件：<input name="pic" type="file" placeholder="上传图片"><br>    
 留言：<input name="message" type="text" placeholder="想说的话"><br>
 <button type="reset">重置</button>
 <button type="submit">留言</button>
@@ -68,10 +68,16 @@
         <td>SONAR</td>
     </tr>
 
-
-
-
 </table>
+
+<h3>计算器：</h3>
+<form oninput="result.value = Math.pow（a.value，b.value）">
+  <input type="number" name="a" value="2">的
+  <input type="number" name="b" value="3">次方        
+  <output name="result">8</output>
+  <input type="reset">
+</form>
+
 
 <h3>简介：</h3>
 <ol>
